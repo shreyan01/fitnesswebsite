@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+body{
+    background-color: rgb(38, 35, 35);
+}
+header{
+    background-color: rgb(59 59 28);
+    position: sticky;
+    border-radius: 5px;
+    margin: auto;
+}
+#FitHIve{
+    font-weight: bold;
+    font-family: 'Katin';
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    padding: 14px;
+    color: #f6f66c;
+    display: inline-block;
+}
+.navigationmid{
+    display: inline-block;
+    margin-left: 400px;
+    font-size: 20px;
+    position: absolute;
+    top: 18px;
+}
+.navright{
+    color: #f6f66c;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+.navlink{
+    color: #c8c85a;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: auto;
+}
+.navlink::after{
+    color: #f6f66c;
+}
+.searchbar{
+    border-color: black;
+    border: 1px;
+    border-radius: 10px;
+}
+.divider{
+    font-size: 18px;
+    font-weight: lighter;
+    color: black;
+}
+.bgfirst{
+    display: inline-block;
+    position: absolute;
+    top: 90px;
+    right: 10px;
+    border-radius: 10px;
+    width: 51%;
+    height: 600px;
+}
+.sect1{
+    font-size: 80px;
+    color: #f6f66c;
+    font-family: 'Katin';
+    font-weight: bold;
+    display: inline-block;
+    left: 10px;
+    margin-top: 90px;
+    margin: auto;
+    width: 48%;
+}
+.artic1{
+    font-family: 'Katin';
+    font-size: 18px;
+    font-weight: normal;
+    color: #e7e766;
+    display: block;
+    position: absolute;
+    margin-top: 400px;
+    left: 10px;
+    margin: auto;
+    width: 46%;
+}
+.lower1{
+    display: inline-block;
+    position: absolute;
+    top: 703px;
+    right: 480px;
+    border-radius: 10px;
+    width: 20%;
+    height: 300px;
+}
+.lower2{
+    display: inline-block;
+    position: absolute;
+    top: 703px;
+    right: 10px;
+    width: 30%;
+    border-radius: 10px;
+}
+.foot{
+    background-color: black;
+    border-radius: 5px;
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    top: 1000px;
+    white-space: nowrap;
+}
+.socials{
+    color: #f6f66c;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
